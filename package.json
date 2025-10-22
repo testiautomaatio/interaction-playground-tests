@@ -1,10 +1,11 @@
 {
-  "name": "authentication-tests",
+  "name": "interacting-with-the-browser",
+  "description": "Tässä tehtävässä jatketaan Playwrightin käytön harjoittelua ja testataan web-sivuston toiminnallisuuksia.",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {},
   "devDependencies": {
-    "@playwright/test": "^1.51.0",
-    "@types/node": "^22.13.10"
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.18.12"
   }
 }
