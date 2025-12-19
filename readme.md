@@ -1,3 +1,5 @@
+[English version of this readme is available in the file readme.en.md](./readme.en.md)
+
 # Selaininteraktiot Playwrightilla
 
 Tässä tehtävässä jatketaan Playwrightin käytön harjoittelua ja testataan web-sivuston toiminnallisuuksia. Tehtävässä keskitytään eri tyyppisten elementtien paikallistamiseen ja niiden kanssa toimimiseen, kuten tekstikentät, painikkeet ja virheilmoitukset. Tehtävässä harjoitellaan myös testien kirjoittamista ja suorittamista sekä testitapauksien luomista ja suunnittelua.
