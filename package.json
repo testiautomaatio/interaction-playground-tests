@@ -1,6 +1,6 @@
 {
   "name": "interacting-with-the-browser",
-  "description": "Tässä tehtävässä jatketaan Playwrightin käytön harjoittelua ja testataan web-sivuston toiminnallisuuksia.",
+  "description": "In this exercise, we continue practicing the use of Playwright and test the functionality of a website.",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {},
