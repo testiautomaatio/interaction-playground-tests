@@ -7,6 +7,13 @@ The tasks to be performed, i.e., various interactions, are instructed on the pra
 The main guide for writing tests can be found in [Playwright's documentation](https://playwright.dev/docs/writing-tests). In addition to the text documentation, you can use numerous videos and tutorials, which can be found, for example, on Playwright's [YouTube channel](https://www.youtube.com/c/PlaywrightTest/videos).
 
 
+## Installations
+
+To complete this assignment, you will need the software tools required by the Playwright tool, such as [Node.js](https://nodejs.org/) and [test browsers](https://playwright.dev/docs/browsers). If you want to use a pre-configured development environment, you can utilize the [development container configuration](./devcontainer.md) provided in this repository. This configuration offers a ready-to-use environment that is isolated from your local operating system.
+
+A development container can be an effective and secure option if you want to avoid installation issues and quickly set up a testing environment that is independent of your local machine.
+
+
 ## Exercise and Testing Prerequisites
 
 This exercise assumes that you have completed the previous exercises, which practiced creating and installing a Playwright project as well as writing and running tests. This exercise repository already includes a Playwright project template, which you can install and start as follows:

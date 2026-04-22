@@ -9,6 +9,13 @@ Suoritettavat tehtävät, eli erilaiset interaktiot, on ohjeistettu harjoitussiv
 Pääasiallinen ohjeistus testien kirjoittamiseksi löytyy [Playwrightin dokumentaatiosta](https://playwright.dev/docs/writing-tests). Tekstimuotoisen dokumentaation lisäksi voit hyödyntää lukuisia videoita ja tutoriaaleja, joita löytyy esimerkiksi Playwrightin [YouTube-kanavalta](https://www.youtube.com/c/PlaywrightTest/videos).
 
 
+## Asennukset
+
+Tämän tehtävän suorittamiseksi tarvitset Playwright-työkalun vaatimat ohjelmistot, kuten [Node.js:n](https://nodejs.org/), sekä [testiselaimia](https://playwright.dev/docs/browsers). Mikäli haluat käyttää valmiiksi konfiguroitua kehitysympäristöä, voit hyödyntää tämän repositorion [development container -konfiguraatiota](./devcontainer.md), joka tarjoaa valmiin ympäristön eristettynä omasta käyttöjärjestelmästäsi.
+
+Kehityskontti voi olla kannattava ja turvallinen vaihtoehto, jos haluat välttää asennusongelmat ja saada nopeasti käyttöön testausympäristön, joka on eristetty omasta koneestasi.
+
+
 ## Tehtävän ja testauksen lähtökohdat
 
 Tässä tehtävässä oletetaan, että olet suorittanut aikaisemmat tehtävät, joissa harjoiteltiin Playwright-projektin luontia ja asennusta sekä testien kirjoittamista ja suorittamista. Tämä tehtävärepositorio sisältää valmiiksi Playwright-projektin pohjan, jonka voit asentaa ja käynnistää seuraavasti:
