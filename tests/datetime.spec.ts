@@ -1,5 +1,11 @@
 import { expect, test } from '@playwright/test';
 
+/*
+ * See the following resource for hints about how to control time in tests:
+ * https://playwright.dev/docs/clock
+ */
+
+
 test.beforeEach(async ({ page }) => {
     await page.goto('/datetime');
 });

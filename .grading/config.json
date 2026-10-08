@@ -1,0 +1,137 @@
+{
+    "name": "Browser Interactions with Playwright",
+    "description": "This test suite verifies that the tests are run correctly and that they cover the required functionality.",
+    "tests": [
+        {
+            "name": "Run tests and extract traces",
+            "description": "Run the Playwright tests and extract traces for further analysis. Passing this step does not guarantee that your tests covered the required functionality, which is checked by the subsequent tests.",
+            "run": [
+                "npx playwright test --reporter=list,html --project=chromium --trace=on",
+                "./.grading/extract_traces.sh"
+            ],
+            "timeout": "3m",
+            "score": 0,
+            "skipRemainingOnFailure": true
+        },
+        {
+            "name": "Basic text input",
+            "run": "./.grading/find_trace.sh 'Nice job! You have greeted the page'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Input without proper attributes",
+            "run": "./.grading/find_trace.sh 'Done! But be careful, that phrase alone has crashed entire applications.'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Reading values from the page",
+            "run": "./.grading/find_trace.sh 'You have successfully read a value from the page!'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Radio buttons",
+            "run": "./.grading/find_trace.sh '📻🎸🎵'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Checkboxes",
+            "run": "./.grading/find_trace.sh 'Button-mashing detected.'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Alerts and prompts",
+            "run": "./.grading/find_trace.sh 'You have handled the prompt successfully!'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Standard select element",
+            "run": "./.grading/find_trace.sh 'You selected the correct option from a standard select element'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Custom select element",
+            "run": "./.grading/find_trace.sh 'You have selected the correct color using a custom select element'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Standard date picker",
+            "run": "./.grading/find_trace.sh 'You have selected the correct date using a standard date picker'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Custom date picker",
+            "run": "./.grading/find_trace.sh 'You have selected the correct date using a custom date picker'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Mark todos as completed",
+            "run": "./.grading/find_trace.sh 'You literally checked all the boxes'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Counter",
+            "run": "./.grading/find_trace.sh 'If you keep clicking, I might start charging per press'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Delayed appearance",
+            "run": "./.grading/find_trace.sh 'Nice job! Hello to you too!'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Delayed enablement",
+            "run": "./.grading/find_trace.sh 'You must be a real tester!'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Test page using different dates",
+            "run": "./.grading/find_trace.sh 'Time travel can be easy with the right tools'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Dark mode",
+            "run": "./.grading/find_trace.sh 'You have successfully switched between the modes'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Dark mode screenshot",
+            "run": "./.grading/find_file.sh 'dark-mode.png'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Light mode screenshot",
+            "run": "./.grading/find_file.sh 'light-mode.png'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Responsive design",
+            "run": "./.grading/find_trace.sh 'You have successfully tested all supported screen sizes'",
+            "timeout": "15s",
+            "score": 5
+        },
+        {
+            "name": "Responsive design screenshots",
+            "run": "./.grading/find_file.sh 'small.png'",
+            "timeout": "15s",
+            "score": 5
+        }
+    ]
+}

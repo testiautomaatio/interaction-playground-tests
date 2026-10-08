@@ -1,3 +1,5 @@
+[English version of this readme is available in the file readme.en.md](./readme.en.md)
+
 # Selaininteraktiot Playwrightilla
 
 Tässä tehtävässä jatketaan Playwrightin käytön harjoittelua ja testataan web-sivuston toiminnallisuuksia. Tehtävässä keskitytään eri tyyppisten elementtien paikallistamiseen ja niiden kanssa toimimiseen, kuten tekstikentät, painikkeet ja virheilmoitukset. Tehtävässä harjoitellaan myös testien kirjoittamista ja suorittamista sekä testitapauksien luomista ja suunnittelua.
@@ -5,6 +7,13 @@ Tässä tehtävässä jatketaan Playwrightin käytön harjoittelua ja testataan 
 Suoritettavat tehtävät, eli erilaiset interaktiot, on ohjeistettu harjoitussivustolla, joka löytyy osoitteesta https://interaction-playground.pages.dev/. Kyseisellä sivustolla ohjeistetaan esimerkiksi syöttämään tietty teksti tekstikenttään tai valitsemaan tietyt painikkeet, ja onnistuneen suorituksen jälkeen sivusto näyttää palautteen siitä. Tehtäväsi on kirjoittaa testitapaukset, jotka suorittavat nämä interaktiot automaattisesti ja tarkistavat, että sivusto näyttää onnistumisviestit odotetusti.
 
 Pääasiallinen ohjeistus testien kirjoittamiseksi löytyy [Playwrightin dokumentaatiosta](https://playwright.dev/docs/writing-tests). Tekstimuotoisen dokumentaation lisäksi voit hyödyntää lukuisia videoita ja tutoriaaleja, joita löytyy esimerkiksi Playwrightin [YouTube-kanavalta](https://www.youtube.com/c/PlaywrightTest/videos).
+
+
+## Asennukset
+
+Tämän tehtävän suorittamiseksi tarvitset Playwright-työkalun vaatimat ohjelmistot, kuten [Node.js:n](https://nodejs.org/), sekä [testiselaimia](https://playwright.dev/docs/browsers). Mikäli haluat käyttää valmiiksi konfiguroitua kehitysympäristöä, voit hyödyntää tämän repositorion [development container -konfiguraatiota](./devcontainer.md), joka tarjoaa valmiin ympäristön eristettynä omasta käyttöjärjestelmästäsi.
+
+Kehityskontti voi olla kannattava ja turvallinen vaihtoehto, jos haluat välttää asennusongelmat ja saada nopeasti käyttöön testausympäristön, joka on eristetty omasta koneestasi.
 
 
 ## Tehtävän ja testauksen lähtökohdat
@@ -52,4 +61,4 @@ Palautettuasi tehtävän suorituksesi pisteytetään sen mukaan, kuinka monta in
 
 Tämän tehtävän on kehittänyt Teemu Havulinna ja se on lisensoitu [Creative Commons BY-NC-SA -lisenssillä](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-Tehtävän luonnissa on luotu hyödyntämällä kielimalleja ja tekoälytyökaluja, kuten GitHub Copilot ja ChatGPT.
+Tehtävän luonnissa on hyödynnetty kielimalleja ja tekoälytyökaluja, kuten GitHub Copilot ja ChatGPT.

@@ -1,10 +1,11 @@
 {
-  "name": "authentication-tests",
+  "name": "interacting-with-the-browser",
+  "description": "In this exercise, we continue practicing the use of Playwright and test the functionality of a website.",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {},
   "devDependencies": {
-    "@playwright/test": "^1.51.0",
-    "@types/node": "^22.13.10"
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^24.13.6"
   }
 }
